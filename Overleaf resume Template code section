@@ -1,0 +1,97 @@
+\documentclass[letterpaper,10pt]{article}
+
+% Adjust margins
+\usepackage[left=0.5in,right=0.5in,top=0.5in,bottom=0.5in]{geometry}
+
+% For handling graphics
+\usepackage{graphicx}
+
+% For hyperlinks
+\usepackage{hyperref}
+
+% Define the command for section headings
+\newcommand{\heading}[1]{%
+    \noindent\textbf{\large #1}\smallskip
+    \hrule
+    \smallskip
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    \textbf{\LARGE Manish Gupta}\\
+    +91-81023**** ⋄ New Delhi, India \\
+    manishgupta@example.com \\
+    \smallskip
+    \smallskip
+    \textbf{LinkedIn:} \href{https://www.linkedin.com/in/manishgupta}{linkedin.com/in/manishgupta}
+\end{center}
+
+
+\heading{Career Objective}
+
+Seeking a challenging position in a forward-thinking organization where I can apply my skills and knowledge to drive impactful results and continue to learn and grow.
+
+\heading{Education}
+\textbf{Master of Science in Computer Science} | ABC University, New Delhi \\
+Expected Graduation: 2025
+
+\textbf{Bachelor of Technology in Information Technology} | XYZ Institute of Technology, New Delhi \\
+Graduated: 2021 \\
+CGPA: 8.5/10
+
+\textbf{HSC} | New Delhi Public School, New Delhi \\
+Graduated: 2017 \\
+Percentage: 92%
+
+\textbf{SSC} | New Era School, New Delhi \\
+Year of Completion: 2015 \\
+Percentage: 88.5%
+
+\heading{Technical Skills}
+ \textbf{Portfolio}
+\begin{itemize}
+    \item Developed a personal portfolio website using HTML, CSS, and JavaScript.
+    \item Project GitHub Link: \href{https://github.com/manishgupta/portfolio}{github.com/manishgupta/portfolio}
+\end{itemize}
+\begin{itemize}
+    \item Programming Languages: C++, Java, Python, JavaScript
+    \item Web Technologies: add your technology here�
+    \item Database Management: MySQL, MongoDB///add your data
+    \item Cloud Computing: AWS (Amazon Web Services)...//add your...
+\end{itemize}
+
+\heading{Projects}
+
+\textbf{E-commerce Website}
+\begin{itemize}
+    \item Developed a full-stack e-commerce website using MERN stack (MongoDB, Express.js, React.js, Node.js).
+\end{itemize}
+
+\textbf{Weather App}
+\begin{itemize}
+    \item Created a weather application that fetches real-time weather data using OpenWeatherMap API.
+\end{itemize}
+
+\heading{Soft Skills}
+
+\begin{itemize}
+    \item Excellent communication skills in English and Hindi (written and spoken).
+    \item Team player with strong problem-solving abilities.
+    \item Effective time management and organizational skills.
+\end{itemize}
+
+\heading{Activities}
+
+\begin{itemize}
+    \item Completed AWS Certified Solutions Architect – Associate certification training.
+    \item Participated in hackathons and coding competitions at college level.
+    \item Volunteer for local community service initiatives.
+\end{itemize}
+
+\heading{Declaration}
+
+I hereby declare that the above information is true to the best of my knowledge.
+
+\end{document}
